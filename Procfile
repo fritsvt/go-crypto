@@ -1,2 +1,2 @@
-web: go-crypto
+web: ./server
 worker: worker
