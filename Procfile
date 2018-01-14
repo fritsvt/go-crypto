@@ -1,2 +1,2 @@
-web: ./server
+web: server
 worker: worker
