@@ -20,6 +20,10 @@
 #  name = "github.com/x/y"
 #  version = "2.4.0"
 
+[metadata.heroku]
+  root-package = "github.com/fritsvt/go-crypto"
+  go-version = "1.8.3"
+  install = [ "./..." ]
 
 [[constraint]]
   name = "github.com/labstack/echo"
