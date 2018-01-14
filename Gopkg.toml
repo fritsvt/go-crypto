@@ -22,7 +22,7 @@
 
 [metadata.heroku]
   root-package = "github.com/fritsvt/go-crypto"
-  go-version = "1.8.3"
+  go-version = "1.9.2"
   install = [ "./..." ]
 
 [[constraint]]
