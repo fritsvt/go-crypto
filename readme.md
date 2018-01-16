@@ -4,6 +4,8 @@ Cryptocurrency Price REST API written in Golang. Data is scraped from CoinMarket
 
 *Please note that this is an unofficial API and is __not__ supported or controlled by CoinMarketCap itself.*
 
+Live api base url: [https://go-crypto.herokuapp.com]('https://go-crypto.herokuapp.com')
+
 ## Usage
 #### `GET /coins.json`
 

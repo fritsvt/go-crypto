@@ -49,6 +49,7 @@ func scrapeCoins() {
 		Ticker string `json:"ticker"`
 		Btc string `json:"btc"`
 		Price string `json:"price"`
+		Currency string `json:"currency"`
 	}
 	type responseStruct struct {
 		Success bool `json:"success"`
@@ -82,6 +83,7 @@ func scrapeCoins() {
 				Ticker: ticker,
 				Btc: btc,
 				Price: price_usd,
+				Currency: "usd",
 			})
 		}
 	})
