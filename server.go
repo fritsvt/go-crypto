@@ -11,9 +11,10 @@ import(
 	"net/http"
 	"log"
 	"fmt"
+	"os"
 )
 
-var SERVER_ADRESS = ":3000"
+var SERVER_ADRESS = ":" + os.Getenv("PORT")
 var INTERVAL time.Duration = 60 // interval new data should be fetched in seconds
 var TARGET_URL = "https://coinmarketcap.com/all/views/all/"
 
