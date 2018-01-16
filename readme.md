@@ -22,13 +22,15 @@ Response:
           "name": "bitcoin",
           "ticker": "BTC",
           "btc": "1.0",
-          "price": "13615.6"
+          "price": "13615.6",
+          "currency": "usd"
           },
           {
           "name": "ethereum",
           "ticker": "ETH",
           "btc": "0.0978496",
-          "price": "1332.52"
+          "price": "1332.52",
+          "currency": "usd"
           }
       ]
     }
@@ -44,4 +46,4 @@ $ go run server.go
 ```
 
 ## License
-[MIT License](LICENSE)
+[WTFPL License](LICENSE)
